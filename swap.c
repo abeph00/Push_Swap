@@ -6,7 +6,7 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 16:13:16 by abertran          #+#    #+#             */
-/*   Updated: 2023/02/23 22:38:56 by abertran         ###   ########.fr       */
+/*   Updated: 2023/03/08 20:35:05 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,6 @@
 
 /*	Swaps the top 2 elements of a stack. 
     Does nothing if there is only one or no elements. */
-	/* 	tmp = stack->value;
-	stack->value = stack->next->value;
-	stack->next->value = tmp;
-	tmp = stack->index;
-	stack->index = stack->next->index;
-	stack->next->index = tmp;
- */
 
 static void	swap(t_stack **stack)
 {

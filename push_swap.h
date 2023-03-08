@@ -6,7 +6,7 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 18:14:42 by abertran          #+#    #+#             */
-/*   Updated: 2023/03/08 18:17:54 by abertran         ###   ########.fr       */
+/*   Updated: 2023/03/08 20:32:25 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,5 +64,6 @@ int			position_lowest_index(t_stack **stack);
 char		**ft_split(char const *s, char c);
 void		get_numbers(char *av, t_stack **stack_a);
 int			is_duplicate(t_stack *column);
+size_t		ft_strlen(const char *s);
 
 #endif

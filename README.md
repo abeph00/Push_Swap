@@ -20,19 +20,36 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 
 FUNCIONES  POR ARCHIVO
 
-	•	CHECK
+	•	COST: cost, cheapest_move.
 
-	•	MAIN
+	•	DO_MOVE: reverse_both, rotate_both, rotate_a, rotate_b
+		do_move.
 
-	•	SORT THREE
+	•	MAIN: push_swap, get_numbers, main.
 
-	•	STACK
+	•	POSITION: get_position, get target, position_lowest_index
+		get_target position.
 
-	•	START
+	•	PUSH: push, do_pa, do_pb.
 
-	•	SWAP
+	•	ROTATE: rotate, do_ra, do_rb, do_rr.
 
-	•	UTILS
+	•	REVERSE_ROTATE: rev_rotate, do_rra, do_rrb, do_rrr.
+
+	•	SORT THREE: biggest_index, sort_three.
+
+	•	SORT: push_init, sort_stack, sort.
+
+	•	SPLIT: ft_strlen, countwords, word_dup, ft_cpy, ft_split.
+
+	•	STACK: stack_new, stack_add, get_bottom, before_bottom ,
+		get_stack_size.
+
+	•	START: input_is_correct, is_duplicate, get_index.
+
+	•	SWAP: swap, do_sa, do_sb, do_ss.
+
+	•	UTILS: free_stack, error_exit, ft_atoi, ft_putstr, abs.
 
 MOVIMIENTOS A REALIZAR
 

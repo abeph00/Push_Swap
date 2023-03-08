@@ -6,13 +6,13 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 19:05:59 by abertran          #+#    #+#             */
-/*   Updated: 2023/03/08 15:15:45 by abertran         ###   ########.fr       */
+/*   Updated: 2023/03/08 20:31:56 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-static size_t	ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 

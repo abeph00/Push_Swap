@@ -6,21 +6,11 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 21:31:51 by abertran          #+#    #+#             */
-/*   Updated: 2023/03/08 18:18:10 by abertran         ###   ########.fr       */
+/*   Updated: 2023/03/08 20:31:50 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-static size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	return (i);
-}
 
 /* Checks if the given arguments are all numbers, without duplicates. */
 
