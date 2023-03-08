@@ -1,5 +1,10 @@
 # Push_swap
-PUSH SWAP
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> PUSH SWAP </TITLE>
+</HEAD>
+<BODY>
 
 Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por la salida estándar una serie de instrucciones para ordenar de menor a mayor en el stack A los números recibidos. El objetivo principal sera realizar esto en el menor numero posible de acciones.  Sean meros sitios y negativos pero nunca duplicados. En el stack b no habra nada. Tendremos  un numero máximo de acciones permitidas para cada caso:
 
@@ -76,3 +81,8 @@ MOVIMIENTOS A REALIZAR
 	•	rrr : reverse rotate a y reverse rotate b - desplaza al mismo tiempo todos
 		los elementos del stack a y del stack b una posición hacia abajo, de forma que
 		el último elemento se convierte en el primero.
+
+		
+<video src="https://www.canva.com/design/DAFb4OSfYjc/4KmygpzS_bNr_47QKVYBPg/watch?utm_content=DAFb4OSfYjc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" width="640" height="480"></video>
+	</BODY>
+</HTML>

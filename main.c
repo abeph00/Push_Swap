@@ -6,7 +6,7 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 18:08:38 by abertran          #+#    #+#             */
-/*   Updated: 2023/03/08 18:24:54 by abertran         ###   ########.fr       */
+/*   Updated: 2023/03/08 20:42:12 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,8 @@ static void	push_swap(t_stack **stack_a, t_stack **stack_b, int stack_size)
 	else if (stack_size > 3 && !is_sorted(*stack_a))
 		sort(stack_a, stack_b);
 }
+
+/*Fill the stack and check if the input is correct */
 
 void	get_numbers(char *av, t_stack **stack_a)
 {
