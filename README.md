@@ -1,4 +1,4 @@
-PUSH SWAP
+<h2>PUSH SWAP</h2>
 
 Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por la salida estándar una serie de instrucciones para ordenar de menor a mayor en el stack A los números recibidos. El objetivo principal sera realizar esto en el menor numero posible de acciones.  Sean meros sitios y negativos pero nunca duplicados. En el stack b no habra nada. Tendremos  un numero máximo de acciones permitidas para cada caso:
 
@@ -17,7 +17,7 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 	•	2 puntos por menos de  10.000 acciones.
 	•	1 puntos por menos de  11.500 acciones.
 
-FUNCIONES  POR ARCHIVO
+	FUNCIONES  POR ARCHIVO
 
 	•	COST: cost, cheapest_move.
 
@@ -50,7 +50,7 @@ FUNCIONES  POR ARCHIVO
 
 	•	UTILS: free_stack, error_exit, ft_atoi, ft_putstr, abs.
 
-MOVIMIENTOS A REALIZAR
+	MOVIMIENTOS A REALIZAR
 
 	•	sa : swap a - intercambia los dos primeros elementos encima del stack a. No hace
 	•	nada si hay uno o menos elementos.
@@ -76,12 +76,19 @@ MOVIMIENTOS A REALIZAR
 		los elementos del stack a y del stack b una posición hacia abajo, de forma que
 		el último elemento se convierte en el primero.
 
-		
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFb9Oxdsdk&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFb9Oxdsdk&#x2F;watch?utm_content=DAFb9Oxdsdk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">**next</a> de abepuche
+	PLANTEAMIENTO Y ALGORITMO
+
+	El proyecto esta realizado mediante listas enlazadas. En cada uno de los nodos guardaremos 6 valores que nos permitirán
+	calcular cual es nuestro movimiento mas eficiente para ir ordenando nuestra pila. Este proyecto permite conseguir
+	la máxima puntuación y realizar la corrección con menos movimientos que el tope para la puntuación máxima. 
+	Además nos permitirá admitir los argumentos como un string, mezclados o solo números como argumentos.
+	
+	Os dejo un pequeño video que espero ayude a la comprensión.
+	
+
+https://user-images.githubusercontent.com/114256637/224306187-cc91f2d7-061b-4542-a213-f38904356a1d.mp4
+
+
+
+https://user-images.githubusercontent.com/114256637/224306217-00b0ea86-6859-4f39-b9a4-c5ff660b3be9.mp4
+
