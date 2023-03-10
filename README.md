@@ -84,11 +84,12 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 	Además nos permitirá admitir los argumentos como un string, mezclados o solo números como argumentos.
 	
 	Os dejo un pequeño video que espero ayude a la comprensión.
-	
-
-https://user-images.githubusercontent.com/114256637/224306187-cc91f2d7-061b-4542-a213-f38904356a1d.mp4
 
 
 
-https://user-images.githubusercontent.com/114256637/224306217-00b0ea86-6859-4f39-b9a4-c5ff660b3be9.mp4
+https://user-images.githubusercontent.com/114256637/224307024-88827f99-d1e8-4b9d-bf63-34d110784871.mp4
+
+
+
+https://user-images.githubusercontent.com/114256637/224306906-7d0beeb2-3641-4d4b-b796-197a67c7b908.mp4
 
