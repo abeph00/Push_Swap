@@ -1,4 +1,13 @@
-### PUSH SWAP
+<img src="https://raw.githubusercontent.com/JaeSeoKim/badge42/main/public/badge42_logo.svg" width ="10%"/>
+<h1 align="center">
+	Push swap
+</h1>
+
+<p align="center">
+	<b><i>Development repo for 42 projects</i></b><br>
+
+---
+
 
 Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por la salida estándar una serie de instrucciones para ordenar de menor a mayor en el stack A los números recibidos. El objetivo principal sera realizar esto en el menor numero posible de acciones.  Sean meros sitios y negativos pero nunca duplicados. En el stack b no habra nada. Tendremos  un numero máximo de acciones permitidas para cada caso:
 
