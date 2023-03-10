@@ -1,4 +1,4 @@
-<h2>PUSH SWAP</h2>
+### PUSH SWAP
 
 Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por la salida estándar una serie de instrucciones para ordenar de menor a mayor en el stack A los números recibidos. El objetivo principal sera realizar esto en el menor numero posible de acciones.  Sean meros sitios y negativos pero nunca duplicados. En el stack b no habra nada. Tendremos  un numero máximo de acciones permitidas para cada caso:
 
@@ -17,7 +17,7 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 	•	2 puntos por menos de  10.000 acciones.
 	•	1 puntos por menos de  11.500 acciones.
 
-	FUNCIONES  POR ARCHIVO
+#### 	FUNCIONES  POR ARCHIVO
 
 	•	COST: cost, cheapest_move.
 
@@ -50,7 +50,7 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 
 	•	UTILS: free_stack, error_exit, ft_atoi, ft_putstr, abs.
 
-	MOVIMIENTOS A REALIZAR
+####	MOVIMIENTOS A REALIZAR
 
 	•	sa : swap a - intercambia los dos primeros elementos encima del stack a. No hace
 	•	nada si hay uno o menos elementos.
@@ -76,15 +76,25 @@ Es un proyecto de algoritmo simple de 42  en el que el objetivo sera mostrar por
 		los elementos del stack a y del stack b una posición hacia abajo, de forma que
 		el último elemento se convierte en el primero.
 
-	PLANTEAMIENTO Y ALGORITMO
+####	PLANTEAMIENTO Y ALGORITMO
 
 	El proyecto esta realizado mediante listas enlazadas. En cada uno de los nodos guardaremos 6 valores que nos permitirán
 	calcular cual es nuestro movimiento mas eficiente para ir ordenando nuestra pila. Este proyecto permite conseguir
 	la máxima puntuación y realizar la corrección con menos movimientos que el tope para la puntuación máxima. 
 	Además nos permitirá admitir los argumentos como un string, mezclados o solo números como argumentos.
 	
+####	TESTERS
+	El tester.sh os generará la cantidad de números aleatorios que querais en el número de pruebas que necesiteis, 
+	y os dará una media de los movmientos realizados para resolverlo.
+	Con python visualazer podreis ver de manera gráfica como va ordenando vuestra pila. 
+	Solo teneis que ejecutar cualquiera de los siguiente comandos 
+	python3 python_visualizer.py `ruby -e "puts (1..100).to_a.shuffle.join(' ')"`  
+	or python3 python_visualizer.py $(seq 1 100 | shuf | tr '\n' ' ')
+	Para push swap tester tendremos que modificar un poquito el script y que el nombre del checker corresponda con el nuestro.
+	
+####	VIDEOS
+	
 	Os dejo un pequeño video que espero ayude a la comprensión.
-
 
 
 https://user-images.githubusercontent.com/114256637/224307024-88827f99-d1e8-4b9d-bf63-34d110784871.mp4
